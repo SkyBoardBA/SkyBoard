@@ -1,0 +1,4 @@
+:root{ --brand:#003333; --brand-gold:#FFC000; }
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-slate-50 text-slate-900; }
+a { @apply text-brand hover:underline; }
